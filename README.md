@@ -1,13 +1,7 @@
 # poi-export-word
 java使用poi操作word, 支持动态的行(一个占位符插入多条)和表格中动态行, 支持图片)
-博客地址：https://blog.csdn.net/qq_37880968/article/details/102870963
+#博客地址：https://blog.csdn.net/qq_37880968/article/details/102870963
 
-## 模板图
-希望可以帮到大家，希望给个start
-[项目git源码地址](https://github.com/lbxgit/poi-export-word.git)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191127113817917.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3ODgwOTY4,size_16,color_FFFFFF,t_70)
-## 效果图
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191127113727737.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3ODgwOTY4,size_16,color_FFFFFF,t_70)
 
 ## 1，引入maven依赖
 
