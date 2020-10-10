@@ -336,9 +336,11 @@ public class DynWordUtils {
         List<List<String>> dataList = (List<List<String>>) PoiWordUtils.getValueByPlaceholder(paramMap, text);
 
         // 新添加的行
-        List<XWPFTableRow> newRows = new ArrayList<>(dataList.size());
+        List<XWPFTableRow> newRows = new ArrayList<>();
         if (dataList == null || dataList.size() <= 0) {
             return newRows;
+        } else {
+            return newRows = new ArrayList<>(dataList.size());
         }
 
         XWPFTableRow currentRow = flagRow;
